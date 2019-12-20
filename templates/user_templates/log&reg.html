@@ -1,0 +1,12 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% include 'head.html' %}
+{% include 'menu.html' %}
+{% include 'user_templates/buyer&seller.html' %}
+{% if msg %}
+<h3>{{ msg }}</h3>
+{% endif %}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table align="center" border="2">
+<tr>
+    <td>NAME</td>
+    <td>PASSWORD</td>
+    <td align="center">EMAIL ID</td>
+    <td>CONTACT</td>
+    <td>JOIN DATE</td></tr>
+    {% for x in msg %}
+        <tr><td>{{ x.name }}</td>
+        <td>{{ x.password }}</td>
+        <td>{{ x.emailid }}</td>
+        <td>{{ x.contact }}</td>
+        <td>{{ x.doj }}</td></tr>
+    {% endfor %}
+</table>
+</body>
+</html>
