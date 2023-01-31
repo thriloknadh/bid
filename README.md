@@ -1,3 +1,3 @@
 # bid
-changes in user templates
-Thia is all about bidding
+
+This is all about bidding
